@@ -1,28 +1,38 @@
 .env
 
+# Virtual Environment
+venv/
+.venv/
+
 # OS generated files #
 ######################
 .DS_Store
 __MACOSX
-# Jupiter Notebook #
+
+# Jupyter Notebook #
 .pytest_cache
 __pycache__
 *checkpoint.ipynb
 *.ipynb_checkpoints
 
-# inteliJ #
+# IntelliJ #
 .idea
 *.gz
 *PKG-INFO
 *.egg-info
+
+# Data files
 *.csv
+
 05-ML/**/*.txt
 06-Deep-Learning/**/*.txt
+
 *.zip
 mlruns
 *.sqlite
-# IDE #
-*.vscode
+
+# VS Code #
+.vscode/
 
 # Specific Challenges
 06-Deep-Learning/03-Convolutional-Neural-Networks/04-Transfer-Learning/flowers/
